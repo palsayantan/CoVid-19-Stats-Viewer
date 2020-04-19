@@ -16,8 +16,8 @@
 #include "bg.h"                    //Background image
 #include <ArduinoJson.h>
 
-const char* ssid = "Sayantan";
-const char* password = "sayantan";
+const char* ssid = "SSID";
+const char* password = "Password";
 
 WiFiUDP ntpUDP;
 // 'time.nist.gov' is used (default server) with +1 hour offset (3600 seconds) 60 seconds (60000 milliseconds) update interval
